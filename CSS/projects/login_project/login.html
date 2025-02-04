@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #1a1a1a;
+            margin: 0;
+            padding: 0;
+            height: 100vh; 
+            /* view port height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: #cec9c9;
+            border-radius: 8px;
+            padding: 30px;
+            width: 300px;
+
+
+        }
+        h2{
+            color: #1055c4;
+            text-align: center;
+            margin-bottom: 30px;
+
+
+        }
+        form{
+            display:flex;
+            flex-direction: column;
+           
+
+
+        }
+        input{
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #d8d8d8;
+            border: 1px solid black;
+
+
+        }
+        button{
+            
+            justify-content: center;
+            color: #fff;
+            width: 60px;
+            
+            background-color: #1b81da;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+
+
+        }
+        .buttons{
+            display:flex;
+            margin-top: 10px;
+            justify-content: space-between;
+            gap: 10px;
+            
+
+        }
+        button:hover{
+            background-color: #2463eb;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Login</h2>
+        <form>
+            <input type="email" name="email" id="" placeholder="email">
+            <input type="password" name="password" id="" placeholder="password">
+            <div class="buttons">
+                <button type="reset">reset</button>
+                <button type="submit">login</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
